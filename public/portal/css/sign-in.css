@@ -1,0 +1,51 @@
+/* Sign-in */
+.sign-in .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.sign-in .bg-blue{
+    background-color: #063C7D;
+}
+
+.sign-in input[type="password"],
+.sign-in input[type="email"]{
+    border: 1px solid #0E50A0;
+    padding: 0.75rem 1.625rem;
+    color: #0E50A0;
+}
+
+.sign-in input[type="password"]:focus-within,
+.sign-in input[type="email"]:focus-within{
+    color: #0E50A0;
+}
+
+.sign-in input[type="password"]::placeholder,
+.sign-in input[type="email"]::placeholder{
+    color: #CCD0DD;
+}
+
+.sign-in .btn-sign-in{
+    padding: 0.75rem;
+    background-color: #0E50A0;
+}
+
+.sign-in .btn-reset{
+    padding: 0.75rem;
+    background-color: #E7EAF5;
+}
+
+
+.sign-in .button-group{
+    width: 100%;
+}
+
+@media (min-width: 992px){
+    .sign-in .container,
+    .sign-in input[type="password"],
+    .sign-in input[type="email"]{
+        max-width: 437px;
+    }
+    }
+
+/*  */
